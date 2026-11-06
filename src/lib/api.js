@@ -40,8 +40,8 @@ api.interceptors.response.use(
       sessionStorage.removeItem("accessToken");
       sessionStorage.removeItem("currentUser");
 
-      if (window.location.pathname !== "/login") {
-        window.location.replace("/login");
+      if (window.location.pathname !== "/") {
+        window.location.replace("/");
       }
     }
 

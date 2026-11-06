@@ -57,7 +57,7 @@ function ProtectedRoute() {
   const token = sessionStorage.getItem("accessToken");
 
   if (!token) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/" replace />;
   }
 
   return <Outlet />;
@@ -96,7 +96,7 @@ function getHomePath() {
       return "/department-dashboard";
 
     default:
-      return "/login";
+      return "/";
   }
 }
 
@@ -146,13 +146,13 @@ function ProtectedPage({ path, children }) {
 export default function App() {
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
 
       <Route element={<ProtectedRoute />}>
         <Route element={<AppLayout />}>
           {/* Company-wide management dashboard */}
           <Route
-            path="/"
+            path="/dashboard"
             element={
               <ProtectedPage path="/">
                 <Dashboard />

@@ -22,7 +22,7 @@ export default function Header({ title, onMenuClick }) {
     } finally {
       sessionStorage.removeItem("accessToken");
       sessionStorage.removeItem("currentUser");
-      navigate("/login", { replace: true });
+      navigate("/", { replace: true });
     }
   }
 

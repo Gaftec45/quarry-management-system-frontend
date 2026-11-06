@@ -469,5 +469,5 @@ export function canAccessNavigationPath(role, department, path) {
 export function getHomePath(role) {
   if (MANAGEMENT_ROLES.includes(role)) return "/";
   if (DEPARTMENT_ROLES.includes(role)) return "/department-dashboard";
-  return "/login";
+  return "/";
 }
