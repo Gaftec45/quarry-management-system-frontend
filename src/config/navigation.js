@@ -136,7 +136,7 @@ export const navigation = [
     allowedRoles: [ROLE.SUPER_ADMIN],
     children: [
       {
-        label: "Users",
+        label: "Staff's",
         path: "/users",
         icon: "Users",
         allowedRoles: [ROLE.SUPER_ADMIN],

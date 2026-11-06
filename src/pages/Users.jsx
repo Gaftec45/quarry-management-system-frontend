@@ -321,7 +321,7 @@ export default function Users() {
           <p className="users-eyebrow">
             WORKSPACE / ACCESS CONTROL
           </p>
-          <h2>User Management</h2>
+          <h2>Staff Management</h2>
           <p>
             Manage staff accounts, departments and access roles.
           </p>

@@ -603,14 +603,14 @@ export default function Dashboard() {
       <section className="welcome-panel mb-4">
         <div>
           <span className="eyebrow">MANAGEMENT INTELLIGENCE</span>
-          <h2>Royal Mining & Chemical</h2>
+          <h2>Royal Mining & Chemical Processing</h2>
           <p>
             Monitor production, inventory, weighbridge activity, operating
             expenses and equipment performance from one workspace.
           </p>
         </div>
 
-        <div className="welcome-symbol">Q</div>
+        <div className="welcome-symbol">R</div>
       </section>
 
       <section className="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">

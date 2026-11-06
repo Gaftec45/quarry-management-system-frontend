@@ -90,7 +90,7 @@ export default function Sidebar() {
         <div className="brand-mark">R</div>
         <div>
           <h2>
-            Royal Mining & Chemical<span></span>
+            R-M & C-P<span>MS</span>
           </h2>
           <p>MANAGEMENT SYSTEM</p>
         </div>
