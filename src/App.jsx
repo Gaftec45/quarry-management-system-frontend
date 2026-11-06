@@ -88,7 +88,7 @@ function getHomePath() {
   switch (user?.role) {
     case "super_admin":
     case "general_manager":
-      return "/";
+      return "/dashboard";
 
     case "department_manager":
     case "data_entry_officer":
@@ -96,7 +96,7 @@ function getHomePath() {
       return "/department-dashboard";
 
     default:
-      return "/";
+      return "/dashboard";
   }
 }
 
@@ -154,7 +154,7 @@ export default function App() {
           <Route
             path="/dashboard"
             element={
-              <ProtectedPage path="/">
+              <ProtectedPage path="/dashboard">
                 <Dashboard />
               </ProtectedPage>
             }

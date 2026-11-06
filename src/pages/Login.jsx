@@ -7,7 +7,7 @@ const getDashboardPath = (role) => {
   switch (role) {
     case "super_admin":
     case "general_manager":
-      return "/";
+      return "/dashboard";
 
     case "department_manager":
     case "data_entry_officer":
