@@ -83,9 +83,9 @@ export default function Login() {
   return (
     <main className="login-page">
       <section className="login-card">
-        <div className="login-brand-mark">Q</div>
+        <div className="login-brand-mark">R</div>
 
-        <p className="login-eyebrow">QUARRYOS MANAGEMENT SYSTEM</p>
+        <p className="login-eyebrow">Royal Mining & Chemical</p>
         <h1>Welcome back</h1>
         <p className="login-description">
           Sign in with your authorized staff account.

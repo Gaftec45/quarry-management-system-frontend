@@ -87,10 +87,10 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="brand">
-        <div className="brand-mark">Q</div>
+        <div className="brand-mark">R</div>
         <div>
           <h2>
-            Quarry<span>OS</span>
+            Royal Mining & Chemical<span></span>
           </h2>
           <p>MANAGEMENT SYSTEM</p>
         </div>

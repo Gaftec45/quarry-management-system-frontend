@@ -603,7 +603,7 @@ export default function Dashboard() {
       <section className="welcome-panel mb-4">
         <div>
           <span className="eyebrow">MANAGEMENT INTELLIGENCE</span>
-          <h2>QuarryOS Dashboard</h2>
+          <h2>Royal Mining & Chemical</h2>
           <p>
             Monitor production, inventory, weighbridge activity, operating
             expenses and equipment performance from one workspace.
