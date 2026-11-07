@@ -120,7 +120,7 @@ const DEPARTMENT_MODULES = {
 export const navigation = [
   {
     label: "Dashboard",
-    path: "/",
+    path: "/dashboard",
     icon: "LayoutDashboard",
     allowedRoles: MANAGEMENT_ROLES,
   },
@@ -467,7 +467,7 @@ export function canAccessNavigationPath(role, department, path) {
 }
 
 export function getHomePath(role) {
-  if (MANAGEMENT_ROLES.includes(role)) return "/";
+  if (MANAGEMENT_ROLES.includes(role)) return "/dashboard";
   if (DEPARTMENT_ROLES.includes(role)) return "/department-dashboard";
-  return "/";
+  return "/dashboard"; // Default fallback for unknown roles
 }

@@ -146,7 +146,16 @@ function ProtectedPage({ path, children }) {
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route
+        path="/"
+        element={
+          sessionStorage.getItem("accessToken") ? (
+            <Navigate to={getHomePath()} replace />
+          ) : (
+            <Login />
+          )
+        }
+      />
 
       <Route element={<ProtectedRoute />}>
         <Route element={<AppLayout />}>

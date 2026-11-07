@@ -34,7 +34,7 @@ function NavigationItem({ item }) {
               <NavLink
                 key={child.path}
                 to={child.path}
-                end={child.path === "/"}
+                end={child.path === "/dashboard"}
                 className={({ isActive }) =>
                   `nav-item ${isActive ? "active" : ""}`
                 }
@@ -54,7 +54,7 @@ function NavigationItem({ item }) {
   return (
     <NavLink
       to={item.path}
-      end={item.path === "/"}
+      end={item.path === "/dashboard"}
       className={({ isActive }) =>
         `nav-item ${isActive ? "active" : ""}`
       }
